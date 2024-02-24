@@ -6,6 +6,8 @@
 trigger:
 - master
 
+pool: Default
+
 variables:
   buildConfiguration: 'Release'
 
