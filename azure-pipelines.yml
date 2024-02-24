@@ -34,4 +34,4 @@ steps:
     reportDirectory: $(Build.SourcesDirectory)\coveragereport\
     additionalCodeCoverageFiles: $(Build.SourcesDirectory)\coveragereport\*.html    
 - script: dotnet build --configuration $(buildConfiguration)
-  displayName: 'dotnet build $(buildConfiguration)'
+  displayName: 'Build $(buildConfiguration)'
