@@ -6,8 +6,6 @@
 trigger:
 - master
 
-- task: UseDotNet@5
-
 pool: Default
 
 variables:
